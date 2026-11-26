@@ -1,0 +1,142 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "SPMI Mataer Digital",
+  "colors": {
+    "primary": "#0163AC",
+    "light": "#418dbf",
+    "dark": "#0163AC"
+  },
+  "favicon": {
+    "light": "/images/favicon.png",
+    "dark": "/images/favicon.png"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://doc-spmi.mataerdigital.com",
+          "icon": "book-open-cover"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "group": "Pengenalan",
+        "pages": [
+          "index",
+          "quickstart",
+          "pengenalan/cara-keluar-aplikasi",
+          "pengenalan/cara-ubah-password"
+        ]
+      },
+      {
+        "group": "Manajemen Referensi",
+        "pages": [
+          "manajemen-referensi/tahun-periode",
+          "manajemen-referensi/lembaga-akreditasi",
+          "manajemen-referensi/auditee-pusat",
+          "manajemen-referensi/auditee",
+          "manajemen-referensi/unit-penunjang"
+        ]
+      },
+      {
+        "group": "Manajemen Dokumen",
+        "pages": [
+          "manajemen-dokumen/kategori-dokumen",
+          "manajemen-dokumen/jenis-dokumen",
+          "manajemen-dokumen/manajemen-dokumen"
+        ]
+      },
+      {
+        "group": "Penetapan",
+        "pages": [
+          "penetapan/daftar-nilai-mutu",
+          "penetapan/daftar-standar-mutu"
+        ]
+      },
+      {
+        "group": "Pelaksanaan",
+        "pages": [
+          "pelaksanaan/pengaturan-periode",
+          "pelaksanaan/target-nilai-mutu",
+          "pelaksanaan/evaluasi-diri",
+          "pelaksanaan/lihat-data-pendidikan",
+          "pelaksanaan/lihat-data-penelitian",
+          "pelaksanaan/lihat-data-pengabdian"
+        ]
+      },
+      {
+        "group": "Evaluasi (AMI)",
+        "pages": [
+          "evaluasi-ami/manajemen-auditor",
+          "evaluasi-ami/jenis-temuan",
+          "evaluasi-ami/kategori-temuan",
+          "evaluasi-ami/daftar-temuan-kolektif",
+          "evaluasi-ami/rekap-desk-evaluation",
+          "evaluasi-ami/laporan-ami"
+        ]
+      },
+      {
+        "group": "Pengendalian & Peningkatan",
+        "pages": [
+          "pengendalian-peningkatan/daftar-temuan",
+          "pengendalian-peningkatan/daftar-kesesuaian",
+          "pengendalian-peningkatan/draft-laporan-rtm",
+          "pengendalian-peningkatan/upload-laporan-rtm"
+        ]
+      },
+      {
+        "group": "Pengaturan Sistem",
+        "pages": [
+          "pengaturan-sistem/pengguna-portal",
+          "pengaturan-sistem/pengguna-back-office"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/light.png",
+    "dark": "/images/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:mataerdigital@gmail.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://spmi.mataerdigital.com"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "instagram": "https://www.instagram.com/mataerdigital"
+    }
+  }
+}
